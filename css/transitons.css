@@ -1,0 +1,20 @@
+
+
+.transition-1 {
+    position: fixed;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 101;
+    background-color: #525252;
+    transition: 0.2s ease-out;
+}
+
+.transition-1.is-active {
+    top: 0;
+}
+
+/* this code was taken from the exercise in class and the video related to the course material
+I need to fix is because the Contact Me part doesn't work yet and Im not satisfied with the
+transition fully but its a start*/
